@@ -1,0 +1,30 @@
+.custom-table-ui {
+    border-collapse: collapse;
+    width: 100%;
+    
+    td, th {
+        border: 1px solid #a4bb4a;
+        padding: 8px;
+        height: 30px;
+    }
+    
+    tr:nth-child(even){background-color: #eef3dc;}
+    
+    tr:hover {background-color: #e5efc4;}
+    
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #a4bb4a;
+        color: white;
+    }
+
+    span.selected,
+    tr.selected {
+        td:nth-child(1) {
+            color: red;
+        }
+    }
+  
+}
